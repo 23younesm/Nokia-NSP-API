@@ -19,6 +19,12 @@ To use the project, adjust the varibles (Server IP and Token) and then run the f
 $ python3 api.py
 ```
 
+Every 30 mins, Nokia needs a new authorization token for the API to validate. To refresh the token run the following command when needed:
+
+```
+$ python3 refresh.py
+```
+
 ## Contributing
 
 1. Fork the repository
